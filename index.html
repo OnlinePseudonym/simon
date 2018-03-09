@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    </head>
+    <body>
+        <div class="title">
+            <span class="b">S</span><span class="r">i</span><span class="y">m</span><span class="b">o</span><span class="g">n</span>
+        </div>
+        <div class="key">
+            <i class="far fa-play-circle play-key"></i>New Game
+            <i class="fas fa-exclamation-circle exclamation-key"></i>Strict-Mode
+            <i class="fas fa-power-off power-key"></i>Power
+        </div>
+        <div class="container">
+        <div class="popup">
+            <div class="popup--txt"><span class="b">Y</span><span class="r">o</span><span class="y">u</span><span class="b"> W</span><span class="g">o</span><span class="r">n</span><span class="y">!</span></div>
+            <div class="popup--txt-small">Would you like to play again?</div>
+            <button class="popup--btn popup--btn-yes btn">Yes</button>
+            <button class="popup--btn popup--btn-no btn">No</button>
+        </div>
+        <div data-id="1" class="quarter q1"></div>
+        <div data-id="2" class="quarter q2"></div>
+        <div data-id="3" class="quarter q3"></div>
+        <div data-id="4" class="quarter q4"></div>
+        <div class="mask">
+            <button class="start__btn btn disable__click"><i class="far fa-play-circle"></i></button>
+            <button class="power__btn btn"><i class="fas fa-power-off"></i></button>
+            <button class="strict__btn btn disable__click"><i class="fas fa-exclamation-circle"></i></button>
+            <div class="current__move"><div class="current__move--count"></div></div>
+        </div>
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</html>
