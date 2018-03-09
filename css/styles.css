@@ -68,6 +68,12 @@ body {
   justify-self: end;
 }
 
+@media only screen and (max-width: 500px) {
+    .key {
+        display: none;
+    }
+}
+
 .container {
   grid-column: 3;
   width: 25rem;
